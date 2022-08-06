@@ -1,3 +1,14 @@
+    const range = document.querySelectorAll('.range')
+    range.forEach(element => {
+        const [elements,option] = element.children
+        elements.addEventListener('input',function (e) {
+            console.log(e.target.value);
+            option.value = e.target.value
+            console.log(option.value);
+        })
+    });
+
+
 function randomRGB () {
     return Math.floor((Math.random() * 255) + 1)
 }
