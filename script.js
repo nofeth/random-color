@@ -43,5 +43,7 @@
         })
     });
 
-
+    elementHex.addEventListener('click',function (e){
+        navigator.clipboard.writeText(e.target.innerText)
+    })
 
