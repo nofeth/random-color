@@ -4,11 +4,23 @@
     text-decoration:none;
     box-sizing:border-box;
 }
+body{
+    background-color:black;
+}
 
-h1{
+.header{
     display: flex;
     justify-content:center;
     margin-top:20%;
+    color:white;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.hex{
+    display: flex;
+    justify-content:center;
+    margin-top:20px;
     color:white;
     font-weight: 900;
     text-transform: uppercase;
