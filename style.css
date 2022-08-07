@@ -3,6 +3,7 @@
     margin: 0;
     text-decoration:none;
     box-sizing:border-box;
+    font-family : 'Robot', sans-serif;
 }
 body{
     background-color:black;
@@ -11,6 +12,7 @@ body{
 .header{
     display: flex;
     justify-content:center;
+    text-align:center;
     margin-top:20%;
     color:white;
     font-weight: 900;
@@ -34,6 +36,7 @@ form{
     gap: 5px;
     right: 0;
     left: 0;
+    flex-wrap:wrap;
 }
 
 .range{
@@ -45,17 +48,21 @@ form{
     align-items: center;
     gap: 5px;
     font-size: 30px;
+
 }
 
 .range:nth-child(1){
     background-color: #d9138a;
+    font-weight: 900;
 }
 
 .range:nth-child(2){
     background-color: #1e847f;
+    font-weight: 900;
 }
 
 .range:nth-child(3){
     background-color: #039fbe;
+    font-weight: 900;
 }
 
